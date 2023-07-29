@@ -3,32 +3,7 @@ guid: 8f384c3e21a65a74cbb9d0c7771fb059
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: mat_floor_00
-    second: {fileID: 2100000, guid: b0a3f2dcb6b4c4546b0504b47e77ffe8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: mat_invis
-    second: {fileID: 2100000, guid: b72edf9ef61ca5d45ad5d5d16e5cedb1, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: transparent_nothing
-    second: {fileID: 2800000, guid: c7dccb62489f1554eab85828b5624fbc, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: ture_cloud_silh_00
-    second: {fileID: 2800000, guid: 27033fc46bffb184d87fe19c1abf5f66, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: ture_piso_00
-    second: {fileID: 2800000, guid: 145f97fb915800e46bf949069590a64c, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

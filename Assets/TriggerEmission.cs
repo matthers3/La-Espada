@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TriggerEmission : MonoBehaviour
 {
+    public bool isSelectable = true;
     public bool isSelected = false;
 
     private Material emissiveMaterial;
@@ -13,7 +14,7 @@ public class TriggerEmission : MonoBehaviour
     }
     
     void LateUpdate() {
-        if (isSelected) {
+        if (isSelected && isSelectable) {
             emissiveMaterial.EnableKeyword("_EMISSION");
         } else {
             emissiveMaterial.DisableKeyword("_EMISSION");
