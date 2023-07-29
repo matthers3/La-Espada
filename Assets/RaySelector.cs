@@ -25,8 +25,8 @@ public class RaySelector : MonoBehaviour {
                 objectHit.gameObject.GetComponentInChildren<TriggerEmission>().isSelected = true;
             }
 
-            if (objectHit.gameObject.GetComponentInChildren<ObserveTarget>()) {
-                objectHit.gameObject.GetComponentInChildren<ObserveTarget>().TrySelect();
+            if (objectHit.gameObject.GetComponent<ObserveTarget>()) {
+                objectHit.gameObject.GetComponent<ObserveTarget>().TrySelect();
             }
 
             // print(objectHit);

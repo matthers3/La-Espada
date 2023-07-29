@@ -26,7 +26,6 @@ public class InspectableObject : MonoBehaviour
     void LateUpdate() {
         if (Input.GetMouseButtonDown(0) && objectSelector.isSelected) {
             objectSelector.isSelectable = false;
-            GetComponent<Collider>().enabled = false;
             var targetTransform = GameObject.Find("ObjectPositionPivot").transform;
             transform.parent = targetTransform;
             transform.DOLocalMove(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.OutQuart);
