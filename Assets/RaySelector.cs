@@ -24,6 +24,11 @@ public class RaySelector : MonoBehaviour {
             if (objectHit.gameObject.GetComponentInChildren<TriggerEmission>()) {
                 objectHit.gameObject.GetComponentInChildren<TriggerEmission>().isSelected = true;
             }
+
+            if (objectHit.gameObject.GetComponentInChildren<ObserveTarget>()) {
+                objectHit.gameObject.GetComponentInChildren<ObserveTarget>().TrySelect();
+            }
+
             // print(objectHit);
             var direction = objectHit;
             // Do something with the object that was hit by the raycast.

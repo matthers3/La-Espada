@@ -12,6 +12,7 @@ public class InspectableObject : MonoBehaviour
     private RaySelector raySelector;
     private bool currentSelection = false;
 
+    public bool interactionDone = false;
     public float mouseSensitivity = 2f;
     float objectVerticalRotation = 0f;
 
@@ -23,9 +24,6 @@ public class InspectableObject : MonoBehaviour
     }
 
     void LateUpdate() {
-        if (Input.GetMouseButtonDown(0)) {
-            print("CLICK!" + objectSelector.isSelected);
-        }
         if (Input.GetMouseButtonDown(0) && objectSelector.isSelected) {
             objectSelector.isSelectable = false;
             GetComponent<Collider>().enabled = false;
@@ -34,20 +32,22 @@ public class InspectableObject : MonoBehaviour
             transform.DOLocalMove(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.OutQuart);
             raySelector.inspecting = true;
             currentSelection = true;
-        } else if (Input.GetMouseButtonDown(0) && !objectSelector.isSelectable) {
-            var targetTransform = GameObject.Find("Objects").transform;
-            transform.parent = targetTransform;
-            transform.DOLocalMove(originalPosition, 0.5f).SetEase(Ease.OutQuart);
-            transform.DORotate(originalRotation, 0.5f).SetEase(Ease.OutQuart);
-            raySelector.inspecting = false;
-            currentSelection = false;
         }
+    }
+
+    public void EndInteraction() {
+        var targetTransform = GameObject.Find("Objects").transform;
+        transform.parent = targetTransform;
+        transform.DOLocalMove(originalPosition, 0.5f).SetEase(Ease.OutQuart);
+        transform.DORotate(originalRotation, 0.5f).SetEase(Ease.OutQuart);
+        raySelector.inspecting = false;
+        currentSelection = false;   
     }
 
     void Update()
     {
         // Collect Mouse Input
-        if (currentSelection == false) {
+        if (currentSelection == false || interactionDone) {
             return;
         }
 
