@@ -6,6 +6,7 @@ public class RaySelector : MonoBehaviour {
     [SerializeField] private float maxDistance = 5f;
 
     public Camera camera;
+    public bool inspecting = false;
 
     void Update() {
         RaycastHit hit;
@@ -23,7 +24,7 @@ public class RaySelector : MonoBehaviour {
             if (objectHit.gameObject.GetComponentInChildren<TriggerEmission>()) {
                 objectHit.gameObject.GetComponentInChildren<TriggerEmission>().isSelected = true;
             }
-            print(objectHit);
+            // print(objectHit);
             var direction = objectHit;
             // Do something with the object that was hit by the raycast.
         }

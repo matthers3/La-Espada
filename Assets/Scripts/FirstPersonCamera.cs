@@ -6,6 +6,7 @@ public class FirstPersonCamera : MonoBehaviour
 {
 
     // Variables
+    [SerializeField] private RaySelector raySelector;
     public Transform player;
     public float mouseSensitivity = 2f;
     float cameraVerticalRotation = 0f;
@@ -25,6 +26,9 @@ public class FirstPersonCamera : MonoBehaviour
     void Update()
     {
         // Collect Mouse Input
+        if (raySelector.inspecting == true) {
+            return;
+        }
 
         float inputX = Input.GetAxis("Mouse X")*mouseSensitivity;
         float inputY = Input.GetAxis("Mouse Y")*mouseSensitivity;

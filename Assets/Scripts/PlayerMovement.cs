@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
         InAir, //in the air
     }
 
+    [SerializeField] private RaySelector raySelector;
+
     [HideInInspector]
     public WorldState States;
     private Transform Cam;
@@ -60,6 +62,10 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()  //world movement
     {
         delta = Time.deltaTime;
+
+        if (raySelector.inspecting == true) {
+            return;
+        }
 
         float Spd = Speed;
 

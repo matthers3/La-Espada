@@ -12,6 +12,11 @@ public class TriggerEmission : MonoBehaviour
     void Start() {
         emissiveMaterial = GetComponentInChildren<Renderer>().material;
     }
+
+    IEnumerator stopSelection() {
+        yield return new WaitForEndOfFrame();
+        isSelected = false;
+    }
     
     void LateUpdate() {
         if (isSelected && isSelectable) {
@@ -19,7 +24,9 @@ public class TriggerEmission : MonoBehaviour
         } else {
             emissiveMaterial.DisableKeyword("_EMISSION");
         }
-        isSelected = false;
+        StartCoroutine(stopSelection());
     }
+
+
 
 }
