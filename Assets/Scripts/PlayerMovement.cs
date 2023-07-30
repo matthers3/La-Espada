@@ -39,7 +39,10 @@ public class PlayerMovement : MonoBehaviour
     public float Speed = 15f; //max speed for basic movement
     public float Acceleration = 4f; //how quickly we build speed
     public float turnSpeed = 2f;
-    private Vector3 MovDirection, movepos, targetDir, GroundDir; //where to move to
+    private Vector3 MovDirection, movepos, targetDir, GroundDir; //where to move
+
+    [Header("Camera")]
+    public PointToCamera pointToCamera = default;
 
     // Start is called before the first frame update
     void Awake()
@@ -73,6 +76,12 @@ public class PlayerMovement : MonoBehaviour
         {
             //we are not moving, lerp to a walk speed
             Spd = 0f;
+        }
+
+        if (Input.GetAxis("Horizontal") < 0) {
+            pointToCamera.rotateLeft();
+        } else if (Input.GetAxis("Horizontal") > 0) {
+            pointToCamera.rotateRight();
         }
         
         
