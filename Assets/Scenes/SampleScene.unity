@@ -203,6 +203,8 @@ MonoBehaviour:
   Camera: {fileID: 459975733}
   child: {fileID: 986264804}
   rotationTime: 0.5
+  levitationAmplitude: 0.4
+  levitationFrequence: 2
 --- !u!1001 &100133213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1988,7 +1990,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986264803}
   m_LocalRotation: {x: 0, y: 0.9999619, z: 0, w: 0.008726652}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.232, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []

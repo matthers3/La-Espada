@@ -16,9 +16,14 @@ public class PointToCamera : MonoBehaviour
     private bool lastWasLeft = false;
     private bool lastWasRight = false;
 
+    [Header("Levitate")]
+    public float levitationAmplitude = 2f;
+    public float levitationFrequence = 1f;
+
     void Start()
     {
         initialRotation = transform.rotation;
+        DOLevitate();
     }
 
     protected void Update()
@@ -32,6 +37,11 @@ public class PointToCamera : MonoBehaviour
             toRotate.y = 0;
         }
         transform.rotation = toRotate;
+    }
+
+    public void DOLevitate() {
+        child.DOLocalMove(child.up * levitationAmplitude, levitationFrequence)
+            .SetLoops(-1, LoopType.Yoyo).SetEase(Ease.InOutSine);
     }
 
     public void rotateLeft() {
