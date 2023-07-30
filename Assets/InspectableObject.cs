@@ -7,12 +7,17 @@ using Yarn.Unity;
 [RequireComponent(typeof(TriggerEmission))]
 public class InspectableObject : MonoBehaviour
 {
+    public bool isLocked = false;
+    public bool isStatic = false;
+    public bool isRepeatable = false;
+
     private TriggerEmission objectSelector;
     private Vector3 originalPosition;
     private Vector3 originalRotation;
     private RaySelector raySelector;
     private bool currentSelection = false;
 
+    public bool alreadySelected = false;
     public string startNode = default;
     public bool interactionDone = false;
     public float mouseSensitivity = 2f;
@@ -26,14 +31,23 @@ public class InspectableObject : MonoBehaviour
     }
 
     void LateUpdate() {
-        if (Input.GetMouseButtonDown(0) && objectSelector.isSelected) {
-            objectSelector.isSelectable = false;
-            var targetTransform = GameObject.Find("ObjectPositionPivot").transform;
-            transform.parent = targetTransform;
-            transform.DOLocalMove(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.OutQuart)
-                .OnComplete(() => FindObjectOfType<DialogueRunner>().StartDialogue(startNode) );
-            raySelector.inspecting = true;
-            FindObjectOfType<FadingBackground>().toggleBackground(true);
+        if (isLocked) {
+            return;
+        }
+
+        if (Input.GetMouseButtonDown(0) && objectSelector.isSelected && !alreadySelected) {
+            alreadySelected = !isRepeatable;
+            if (isStatic) {
+                FindObjectOfType<DialogueRunner>().StartDialogue(startNode);
+                raySelector.inspecting = true;
+            } else {
+                var targetTransform = GameObject.Find("ObjectPositionPivot").transform;
+                transform.parent = targetTransform;
+                transform.DOLocalMove(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.OutQuart)
+                    .OnComplete(() => FindObjectOfType<DialogueRunner>().StartDialogue(startNode) );
+                raySelector.inspecting = true;
+                FindObjectOfType<FadingBackground>().toggleBackground(true);
+            }
         }
     }
 

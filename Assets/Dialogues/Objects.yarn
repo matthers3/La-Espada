@@ -1,5 +1,4 @@
-﻿
-title: TasaBegin
+﻿title: TasaBegin
 tags:
 ---
 Una taza.
@@ -153,5 +152,53 @@ Mejor no.
 title: MirrorPrompt
 tags:
 ---
-Estoy lista para verme a mi misma.
+<<trigger_final YarnCommands>>
+===
+
+title: MirrorStart
+tags:
+---
+Ni siquiera me reconozco a mi misma…
+<<liberate_player YarnCommands>>
+===
+
+title: MirrorMid
+tags:
+---
+Esa soy yo?
+No es suficiente.
+Aún me faltan cosas.
+<<liberate_player YarnCommands>>
+===
+
+title: MirrorFinaleGood
+tags:
+---
+Tuve suficiente de este circo inútil.
+Un tira y afloja sin sentido.
+¿Para qué?
+…
+Termine.
+Terminamos?
+Según quienes...
+Un trato entro yo y nadie mas.
+Que termina ahora.
+<<end_game YarnCommands>>
+===
+
+title: MirrorFinaleNegation
+tags:
+---
+Mirate a la cara.
+Vas a esconderte?
+Pudrirte en auto-desprecio y lastima…
+Como un animal herido.
+La vergüenza en tu cara…
+Me pone mas enferma que cualquier rastro de sexo podría.
+Mi ira…
+Es un precio que se paga en celos y se ahoga entre carretas eternas.
+Control.
+Control y venganza.
+Tienen un sabor delicioso.
+<<end_game YarnCommands>>
 ===

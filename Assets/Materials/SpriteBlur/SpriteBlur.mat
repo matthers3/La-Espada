@@ -117,11 +117,11 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - hstep: 0.5
-    - hstepMinus: -0.5
-    - radius: 15
+    - hstep: 1
+    - hstepMinus: -1
+    - radius: 45
     - resolution: 800
-    - vstep: 0.5
+    - vstep: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

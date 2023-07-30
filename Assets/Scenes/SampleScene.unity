@@ -895,6 +895,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93eb46574bbc83749827de2254c332b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
+  isStatic: 0
+  isRepeatable: 0
+  alreadySelected: 0
   startNode: MixtapeBegin
   interactionDone: 0
   mouseSensitivity: 2
@@ -1582,7 +1586,7 @@ SpriteRenderer:
   m_Size: {x: 5.74, y: 2.74}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &664227327
@@ -1629,7 +1633,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664227327}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1696,6 +1700,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93eb46574bbc83749827de2254c332b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
+  isStatic: 1
+  isRepeatable: 1
+  alreadySelected: 0
   startNode: MirrorPrompt
   interactionDone: 0
   mouseSensitivity: 2
@@ -1774,6 +1782,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b900b6d691ae49f8a12753b63b449e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sun: {fileID: 0}
+  depthOfFieldTarget: {fileID: 0}
 --- !u!114 &679447303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2342,6 +2352,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08248bc953ac432498effd1167675043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 986264805}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_sharedMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 4196e190af965cc429884ff11b6b579d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &993259774
 GameObject:
   m_ObjectHideFlags: 0
@@ -2499,6 +2525,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08248bc953ac432498effd1167675043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2100000, guid: 5528467687794b045a735ca76dd58d92, type: 2}
+        m_TargetAssemblyTypeName: UnityEngine.Material, UnityEngine
+        m_MethodName: set_shader
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 4800000, guid: 566c7ff9327b0784d84a5d6d4db17a1c,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Shader, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1074727883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,6 +2714,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93eb46574bbc83749827de2254c332b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
+  isStatic: 0
+  isRepeatable: 0
+  alreadySelected: 0
   startNode: TasaBegin
   interactionDone: 0
   mouseSensitivity: 2
@@ -2871,7 +2917,7 @@ SpriteRenderer:
   m_Size: {x: 2.46, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1274809709
