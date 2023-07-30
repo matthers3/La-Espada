@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 391e3d7b3b5af7e46b9ea1eb774b7e66
+guid: fd06b8e874397a44dab05e32f174dda5
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,12 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_floor_00
-    second: {fileID: 2100000, guid: ea744deb5b354714187a20743964ab5a, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: ture_piso_00
-    second: {fileID: 2800000, guid: 82f54dcc71d5ce74a9b7dd8795e3e7de, type: 3}
+    second: {fileID: 2100000, guid: 31c8976c46043b3418cdea032f138b8b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
