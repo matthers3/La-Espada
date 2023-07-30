@@ -96,7 +96,7 @@ public class DialogueCommands : MonoBehaviour
     }
 
     public bool allClues() {
-        return positives + negatives >= 1;
+        return positives + negatives >= 5;
     }
 
     [YarnCommand("trigger_final")]

@@ -8,6 +8,15 @@ public class FinalFade : MonoBehaviour
 {
     public GameObject EndMessage;
 
+    void Start() {
+        StartCoroutine(startGame());
+    }
+
+    private IEnumerator startGame() {
+        yield return new WaitForSeconds(1f);
+        GetComponent<CanvasGroup>().DOFade(0f, 1f);
+    }
+
     public void End() {
         StartCoroutine(endTitleAndCredits());
     }
