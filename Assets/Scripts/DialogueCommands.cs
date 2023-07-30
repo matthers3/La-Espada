@@ -42,7 +42,7 @@ public class DialogueCommands : MonoBehaviour
 
     [YarnCommand("begin_interaction")]
     public void BeginInteraction(string name) {
-        GameObject.Find(name).GetComponent<InspectableObject>().StartInteraction();
+        GameObject.Find(name).GetComponentInChildren<InspectableObject>().StartInteraction();
     }
 
     [YarnCommand("end_interaction")]

@@ -26,7 +26,7 @@ title: PoleronBegin
 tags:
 ---
 Un polerón.
-<<begin_interaction YarnCommands Poleron>>
+<<begin_interaction YarnCommands ThePoleron>>
 ===
 
 title: Tasa
@@ -85,7 +85,7 @@ Como cucarachas.
     <<sum_positive YarnCommands>>
 -> Esto ni siquiera me queda.
     <<sum_negative YarnCommands>>
-<<end_interaction YarnCommands Poleron>>
+<<end_interaction YarnCommands ThePoleron>>
 ===
 
 title: Sword
