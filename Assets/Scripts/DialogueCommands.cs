@@ -91,7 +91,7 @@ public class DialogueCommands : MonoBehaviour
         }
 
         endSequenceSet = true;
-        endCoroutine = endTimer(5f);
+        endCoroutine = endTimer(120f);
         StartCoroutine(endCoroutine);
 
     }
