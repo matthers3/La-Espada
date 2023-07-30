@@ -35,11 +35,18 @@ public class InspectableObject : MonoBehaviour
             return;
         }
 
+        if (raySelector.playerReady == false) {
+            return;
+        }
+
         if (InputControls.GetComfirm() && objectSelector.isSelected && !alreadySelected) {
             alreadySelected = !isRepeatable;
             if (isStatic) {
-                FindObjectOfType<DialogueRunner>().StartDialogue(startNode);
-                raySelector.inspecting = true;
+                DialogueRunner runner = FindObjectOfType<DialogueRunner>();
+                if (!runner.IsDialogueRunning) {
+                    runner.StartDialogue(startNode);
+                    raySelector.inspecting = true;
+                }
             } else {
                 var targetTransform = GameObject.Find("ObjectPositionPivot").transform;
                 transform.parent = targetTransform;

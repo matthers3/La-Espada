@@ -14,7 +14,8 @@ public class FinalFade : MonoBehaviour
 
     private IEnumerator startGame() {
         yield return new WaitForSeconds(1f);
-        GetComponent<CanvasGroup>().DOFade(0f, 1f);
+        GetComponent<CanvasGroup>().DOFade(0f, 1f)
+            .OnComplete(() => FindObjectOfType<RaySelector>().playerReady = true);
     }
 
     public void End() {

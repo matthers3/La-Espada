@@ -7,8 +7,13 @@ public class RaySelector : MonoBehaviour {
 
     public Camera camera;
     public bool inspecting = false;
+    public bool playerReady = false;
 
     void Update() {
+        if (playerReady == false) {
+            return;
+        }
+
         RaycastHit hit;
 
         Ray ray = camera.ScreenPointToRay(Input.mousePosition);
