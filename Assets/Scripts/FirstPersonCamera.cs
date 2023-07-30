@@ -26,6 +26,11 @@ public class FirstPersonCamera : MonoBehaviour
     
     void Update()
     {
+
+        if (raySelector.playerReady == false) {
+            return;
+        }
+
         // Collect Mouse Input
         if (raySelector.inspecting == true) {
             return;

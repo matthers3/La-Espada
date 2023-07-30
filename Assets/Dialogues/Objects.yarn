@@ -66,7 +66,38 @@ tags:
 ---
 ¿Qué estás esperando?
 Deberíamos hablar?
+<<play_ring DialogueSystem>>
 Sobre qué… exactamente—
+<<set_friend_line_view DialogueSystem true>>
+<<wait  1>>
+<<jump PhoneFriend>>
+===
+
+title: PhoneFriend
+tags:
+---
+<<play_friend DialogueSystem>>
+<<wait 1.5>>
+Pio yo se que no querí venir pa' aca y weon.
+<<wait 1.5>>
+Que paja ser yo el que te diga esto pero weon. 
+<<wait 1>>
+Estoy viendo ACA, de frente... a la Prava comiéndose a otra weona. 
+<<wait 2.25>>
+Weon se estan comiendo MUY FUERTE weon... 
+<<wait 1.4>>
+Yo te dije que eran malas. Weon yo te dije que esta mina era mala pa' ti weon.
+<<wait 1.5>>
+YO TE DIJE… Espérate voy a dejar la caga y vuelvo...
+<<wait 2>>
+<<set_friend_line_view DialogueSystem false>>
+<<jump PhoneEnd>>
+===
+
+title: PhoneEnd
+tags:
+---
+...
 -> Ella no es mi polola.
     <<sum_negative YarnCommands>>
 -> Nosotras no somos nada.

@@ -6,6 +6,7 @@ using DG.Tweening;
 
 public class FinalFade : MonoBehaviour
 {
+    public bool gameFinished = false;
     public GameObject EndMessage;
 
     void Start() {
@@ -19,6 +20,7 @@ public class FinalFade : MonoBehaviour
     }
 
     public void End() {
+        gameFinished = true;
         StartCoroutine(endTitleAndCredits());
     }
 

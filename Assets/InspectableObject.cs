@@ -53,7 +53,7 @@ public class InspectableObject : MonoBehaviour
                 transform.DOLocalMove(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.OutQuart)
                     .OnComplete(() => FindObjectOfType<DialogueRunner>().StartDialogue(startNode) );
                 raySelector.inspecting = true;
-                FindObjectOfType<FadingBackground>().toggleBackground(true);
+                // FindObjectOfType<FadingBackground>().toggleBackground(true);
             }
         }
     }

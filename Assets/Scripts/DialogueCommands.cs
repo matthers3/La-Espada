@@ -80,6 +80,10 @@ public class DialogueCommands : MonoBehaviour
         
         IEnumerator endTimer(float duration) {
             yield return new WaitForSeconds(duration);
+
+            if (FindObjectOfType<FinalFade>().gameFinished == true) {
+                yield break;
+            }
             if (FindObjectOfType<DialogueRunner>().IsDialogueRunning)
             {
                 StartCoroutine(endTimer(5f));
