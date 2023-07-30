@@ -105,6 +105,7 @@ Ni pensamientos…
 Ni opciones.
 -> Ella no me ama.
 ->Ella nunca me amo.
+<<sum_sword YarnCommands>>
 <<end_interaction YarnCommands Espada>>
 ===
 
@@ -150,6 +151,14 @@ Que me pone enferma de la cabeza y sin ella no me queda nada.
 …
 tsk.
 Mejor no.
+<<liberate_player YarnCommands>>
+===
+
+title: MirrorReminder
+tags:
+---
+<<block_player YarnCommands>>
+Estoy lista para verme a mi misma.
 <<liberate_player YarnCommands>>
 ===
 

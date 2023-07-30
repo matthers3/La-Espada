@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class FirstPersonCamera : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class FirstPersonCamera : MonoBehaviour
     public Transform player;
     public float mouseSensitivity = 2f;
     float cameraVerticalRotation = 0f;
+    public GameObject setSelection = default;
 
     bool lockedCursor = true;
 
@@ -19,7 +21,6 @@ public class FirstPersonCamera : MonoBehaviour
         // Lock and Hide the Cursor
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-
     }
 
     
@@ -45,4 +46,5 @@ public class FirstPersonCamera : MonoBehaviour
         player.Rotate(Vector3.up * inputX);
        
     }
+
 }

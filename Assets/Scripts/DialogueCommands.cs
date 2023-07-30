@@ -52,19 +52,20 @@ public class DialogueCommands : MonoBehaviour
 
     [YarnCommand("sum_positive")]
     public void SumPositive() {
-        positives += 4.0;
+        positives += 1.0;
         checkEnd();
     }
 
     [YarnCommand("sum_negative")]
     public void SumNegative() {
-        negatives += 4.0;
+        negatives += 1.0;
         checkEnd();
     }
 
     [YarnCommand("sum_sword")]
     public void SumSword() {
         sword += 1.0;
+        checkEnd();
     }
 
     private void checkEnd() {
@@ -85,12 +86,12 @@ public class DialogueCommands : MonoBehaviour
             } 
             else 
             {
-                FindObjectOfType<DialogueRunner>().StartDialogue("MirrorPrompt");
+                FindObjectOfType<DialogueRunner>().StartDialogue("MirrorReminder");
             }
         }
 
         endSequenceSet = true;
-        endCoroutine = endTimer(120f);
+        endCoroutine = endTimer(5f);
         StartCoroutine(endCoroutine);
 
     }
@@ -100,7 +101,7 @@ public class DialogueCommands : MonoBehaviour
     }
 
     public bool allClues() {
-        return positives + negatives >= 4;
+        return positives + negatives + sword >= 5;
     }
 
     [YarnCommand("trigger_final")]
@@ -130,6 +131,11 @@ public class DialogueCommands : MonoBehaviour
     [YarnCommand("liberate_player")]
     public void liberatePlayer() {
         FindObjectOfType<RaySelector>().inspecting = false;
+    }
+
+    [YarnCommand("block_player")]
+    public void block_player() {
+        FindObjectOfType<RaySelector>().inspecting = true;
     }
 
     [YarnCommand("end_game")]

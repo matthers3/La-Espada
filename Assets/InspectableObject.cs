@@ -35,7 +35,7 @@ public class InspectableObject : MonoBehaviour
             return;
         }
 
-        if (Input.GetMouseButtonDown(0) && objectSelector.isSelected && !alreadySelected) {
+        if (InputControls.GetComfirm() && objectSelector.isSelected && !alreadySelected) {
             alreadySelected = !isRepeatable;
             if (isStatic) {
                 FindObjectOfType<DialogueRunner>().StartDialogue(startNode);
