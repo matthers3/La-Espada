@@ -6,8 +6,8 @@ using Yarn.Unity;
 public class DialogueCommands : MonoBehaviour
 {
 
-    private double positives = 0.0;
-    private double negatives = 0.0;
+    public double positives = 0.0;
+    public double negatives = 0.0;
     private double sword = 0.0;
 
     private bool didSelect = false;
@@ -52,13 +52,13 @@ public class DialogueCommands : MonoBehaviour
 
     [YarnCommand("sum_positive")]
     public void SumPositive() {
-        positives += 1.0;
+        positives += 4.0;
         checkEnd();
     }
 
     [YarnCommand("sum_negative")]
     public void SumNegative() {
-        negatives += 1.0;
+        negatives += 4.0;
         checkEnd();
     }
 
@@ -95,8 +95,12 @@ public class DialogueCommands : MonoBehaviour
 
     }
 
+    public bool UnlockSword() {
+        return positives + negatives >= 4;
+    }
+
     public bool allClues() {
-        return positives + negatives >= 5;
+        return positives + negatives >= 4;
     }
 
     [YarnCommand("trigger_final")]
