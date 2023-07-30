@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using Yarn.Unity;
 
 [RequireComponent(typeof(TriggerEmission))]
 public class InspectableObject : MonoBehaviour
@@ -12,6 +13,7 @@ public class InspectableObject : MonoBehaviour
     private RaySelector raySelector;
     private bool currentSelection = false;
 
+    public string startNode = default;
     public bool interactionDone = false;
     public float mouseSensitivity = 2f;
     float objectVerticalRotation = 0f;
@@ -28,10 +30,15 @@ public class InspectableObject : MonoBehaviour
             objectSelector.isSelectable = false;
             var targetTransform = GameObject.Find("ObjectPositionPivot").transform;
             transform.parent = targetTransform;
-            transform.DOLocalMove(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.OutQuart);
+            transform.DOLocalMove(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.OutQuart)
+                .OnComplete(() => FindObjectOfType<DialogueRunner>().StartDialogue(startNode) );
             raySelector.inspecting = true;
-            currentSelection = true;
+            FindObjectOfType<FadingBackground>().toggleBackground(true);
         }
+    }
+
+    public void StartInteraction() {
+        currentSelection = true;
     }
 
     public void EndInteraction() {

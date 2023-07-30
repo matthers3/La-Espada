@@ -1,0 +1,157 @@
+﻿
+title: TasaBegin
+tags:
+---
+Una taza.
+<<begin_interaction YarnCommands Tasa>>
+===
+
+
+title: MixtapeBegin
+tags:
+---
+Un mixtape.
+<<begin_interaction YarnCommands Mixtape>>
+===
+
+
+title: PhoneBegin
+tags:
+---
+Tu telefono.
+<<begin_interaction YarnCommands Phone>>
+===
+
+
+title: PoleronBegin
+tags:
+---
+Un polerón.
+<<begin_interaction YarnCommands Poleron>>
+===
+
+title: Tasa
+tags:
+---
+Manchada con un color que tu no usas.
+¿Cuando fue la última que estuvo aquí?
+¿Cuando va a volver a venir?
+Ni siquiera se.
+Si la llamara, vendría?
+Si ella me llamara a mi…
+-> Soy patética.
+    <<sum_positive YarnCommands>>
+-> Odio lavar loza.
+    <<sum_negative YarnCommands>>
+<<end_interaction YarnCommands Tasa>>
+===
+
+title: Mixtape
+tags:
+---
+Llena de “nuestras canciones”.
+Un regalo de nuestra primera cita…
+Ella llegó tarde.
+Entra por la puerta y espera que no diga nada.
+Un baile que ambas nos sabemos de memoria…
+Lo odio.
+-> Son migajas.
+    <<sum_positive YarnCommands>>
+-> Ella piensa en mi.
+    <<sum_negative YarnCommands>>
+<<end_interaction YarnCommands Mixtape>>
+===
+
+title: Phone
+tags:
+---
+¿Qué estás esperando?
+Deberíamos hablar?
+Sobre qué… exactamente—
+-> Ella no es mi polola.
+    <<sum_negative YarnCommands>>
+-> Nosotras no somos nada.
+    <<sum_positive YarnCommands>>
+<<end_interaction YarnCommands Phone>>
+===
+
+title: Poleron
+tags:
+---
+Con agujeros para alas que no tienes.
+Cosas y cosas de ella…
+Aparen por todos lados.
+Como cucarachas.
+-> Ella… tampoco tiene alas.
+    <<sum_positive YarnCommands>>
+-> Esto ni siquiera me queda.
+    <<sum_negative YarnCommands>>
+<<end_interaction YarnCommands Poleron>>
+===
+
+title: Sword
+tags:
+---
+Su espada.
+Digna de una guerrera. 
+…
+Te atraviesa cuando no tiene nada mejor que hacer.
+Estoy cansada de pelear contra ella.
+Ella me engaña.
+Ella me traiciona.
+Y yo…
+Me quedo sola.
+No tengo fuerzas… 
+Ni pensamientos…
+Ni opciones.
+-> Ella no me ama.
+->Ella nunca me amo.
+<<end_interaction YarnCommands Tasa>>
+===
+
+title: Bed
+tags:
+---
+Mi cama…
+El olor esta pegado…
+Aun me excita.
+Me revuelve el estomago.
+===
+
+title: Polaroid
+tags:
+---
+Al lado tuyo…
+Esa soy yo?
+Siempre me dices que son “accidentes”.
+¿Así es como me dices a mi?
+¿Soy otro de tus accidentes?
+Tus pequeños errores que todos cometemos.
+Entendibles, pequeños, poco importantes.
+===
+
+title: Nude
+tags:
+---
+Oh! 
+Bacán, y ahora me reconozco…
+===
+
+title: LoveLetter
+tags:
+---
+Esta a medias.
+Podría terminarla.
+Decirle que la amo, que la adoro.
+Que me pone enferma de la cabeza y sin ella no me queda nada.
+¿Que es extraordinaria con la lengua?
+…
+tsk.
+Mejor no.
+===
+
+title: MirrorPrompt
+tags:
+---
+Estoy lista para verme a mi misma.
+===

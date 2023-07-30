@@ -6,6 +6,9 @@ using Yarn.Unity;
 public class DialogueCommands : MonoBehaviour
 {
 
+    private int positives = 0;
+    private int negatives = 0;
+
     private bool didSelect = false;
     private float counter = 0f;
 
@@ -30,7 +33,27 @@ public class DialogueCommands : MonoBehaviour
                 yield break;
             }
         // Yarn.setVariable("conversacion1", true)
-        }   
+        }
+    }
+
+    [YarnCommand("begin_interaction")]
+    public void BeginInteraction(string name) {
+        GameObject.Find(name).GetComponent<InspectableObject>().StartInteraction();
+    }
+
+    [YarnCommand("end_interaction")]
+    public void EndInteraction(string name) {
+        GameObject.Find(name).GetComponent<InspectableObject>().EndInteraction();
+    }
+
+    [YarnCommand("sum_positive")]
+    public void SumPositive() {
+        positives += 1;
+    }
+
+        [YarnCommand("sum_negative")]
+    public void SumNegative() {
+        negatives += 1;
     }
 
 }
