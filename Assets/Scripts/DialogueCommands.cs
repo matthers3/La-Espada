@@ -12,6 +12,9 @@ public class DialogueCommands : MonoBehaviour
     private bool didSelect = false;
     private float counter = 0f;
 
+    private IEnumerator endCoroutine;
+    private bool endSequenceSet = false;
+
     void Update() {
         if (Input.GetKeyDown(KeyCode.Space)) {
             didSelect = true;
@@ -49,11 +52,41 @@ public class DialogueCommands : MonoBehaviour
     [YarnCommand("sum_positive")]
     public void SumPositive() {
         positives += 1;
+        checkEnd();
     }
 
         [YarnCommand("sum_negative")]
     public void SumNegative() {
         negatives += 1;
+        checkEnd();
+    }
+
+    private void checkEnd() {
+
+        if (endSequenceSet) {
+            return;
+        }
+
+        if (positives + negatives < 4) {
+            return;
+        }
+        
+        IEnumerator endTimer(float duration) {
+            yield return new WaitForSeconds(duration);
+            if (FindObjectOfType<DialogueRunner>().IsDialogueRunning)
+            {
+                StartCoroutine(endTimer(5f));
+            } 
+            else 
+            {
+                FindObjectOfType<DialogueRunner>().StartDialogue("MirrorPrompt");
+            }
+        }
+
+        endSequenceSet = true;
+        endCoroutine = endTimer(120f);
+        StartCoroutine(endCoroutine);
+
     }
 
 }
