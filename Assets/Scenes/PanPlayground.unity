@@ -13795,6 +13795,8 @@ GameObject:
   - component: {fileID: 1730838510}
   - component: {fileID: 1730838511}
   - component: {fileID: 1730838512}
+  - component: {fileID: 7526909248951613771}
+  - component: {fileID: 7526909248951613772}
   m_Layer: 0
   m_Name: ThePoleron
   m_TagString: Untagged
@@ -13868,3 +13870,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467500371663647329}
   m_Mesh: {fileID: -5827040850986375279, guid: c7e195caf2c90934fb44dc6e54d7c226, type: 3}
+--- !u!65 &7526909248951613771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467500371663647329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.13, y: 7.178955, z: 2.25}
+  m_Center: {x: 1.07, y: 0.57, z: -0.79}
+--- !u!65 &7526909248951613772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467500371663647329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.13, y: 7.178955, z: 2.25}
+  m_Center: {x: -0.91, y: 0.57, z: -0.79}
