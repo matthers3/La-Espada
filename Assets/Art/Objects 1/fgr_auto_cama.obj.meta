@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ccc1133e0411416408869acd5fd9f538
+guid: a8a81859f9dce394c9b3ee2277af8ca5
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: fgr_flip_phone_abiertoMat
-    second: {fileID: 2100000, guid: 98c8bd84a7f56fa4ea63d1a96096aeba, type: 2}
+      name: fgr_auto_camaMat
+    second: {fileID: 2100000, guid: 398f7742a6a84bf4b8f7f463d751e26d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
