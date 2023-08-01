@@ -98,9 +98,9 @@ title: PhoneEnd
 tags:
 ---
 ...
--> Ella no es mi polola.
-    <<sum_negative YarnCommands>>
 -> Nosotras no somos nada.
+    <<sum_negative YarnCommands>>
+-> La odio.
     <<sum_positive YarnCommands>>
 <<end_interaction YarnCommands Phone>>
 ===
