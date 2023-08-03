@@ -33,9 +33,9 @@ title: Tasa
 tags:
 ---
 Manchada con un color que tu no usas.
-¿Cuando fue la última que estuvo aquí?
-¿Cuando va a volver a venir?
-Ni siquiera se.
+¿Cuándo fue la última vez que estuvo aquí?
+¿Cuándo va a volver a venir?
+Ni siquiera sé.
 Si la llamara, vendría?
 Si ella me llamara a mi…
 -> Soy patética.
@@ -56,7 +56,7 @@ Un baile que ambas nos sabemos de memoria…
 Lo odio.
 -> Son migajas.
     <<sum_positive YarnCommands>>
--> Ella piensa en mi.
+-> Ella piensa en mí.
     <<sum_negative YarnCommands>>
 <<end_interaction YarnCommands Mixtape>>
 ===
@@ -82,7 +82,7 @@ Pio yo se que no querí venir pa' aca y weon.
 <<wait 1.5>>
 Que paja ser yo el que te diga esto pero weon. 
 <<wait 1>>
-Estoy viendo ACA, de frente... a la Prava comiéndose a otra weona. 
+Estoy viendo ACÁ, de frente... a la Prava comiéndose a otra weona. 
 <<wait 2.25>>
 Weon se estan comiendo MUY FUERTE weon... 
 <<wait 1.4>>
@@ -110,7 +110,7 @@ tags:
 ---
 Con agujeros para alas que no tienes.
 Cosas y cosas de ella…
-Aparen por todos lados.
+Aparecen por todos lados.
 Como cucarachas.
 -> Ella… tampoco tiene alas.
     <<sum_positive YarnCommands>>
@@ -135,7 +135,7 @@ No tengo fuerzas…
 Ni pensamientos…
 Ni opciones.
 -> Ella no me ama.
-->Ella nunca me amo.
+-> Ella nunca me amó.
 <<sum_sword YarnCommands>>
 <<end_interaction YarnCommands Espada>>
 ===
@@ -145,7 +145,7 @@ tags:
 ---
 Mi cama…
 El olor esta pegado…
-Aun me excita.
+Aún me excita.
 Me revuelve el estomago.
 <<liberate_player YarnCommands>>
 ===
@@ -225,7 +225,7 @@ Un tira y afloja sin sentido.
 Termine.
 Terminamos?
 Según quienes...
-Un trato entro yo y nadie mas.
+Un trato entro yo y nadie más.
 Que termina ahora.
 <<end_game YarnCommands>>
 ===
@@ -233,7 +233,7 @@ Que termina ahora.
 title: MirrorFinaleNegation
 tags:
 ---
-Mirate a la cara.
+Mírate a la cara.
 Vas a esconderte?
 Pudrirte en auto-desprecio y lastima…
 Como un animal herido.

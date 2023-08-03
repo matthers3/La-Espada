@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public void StartGame(){
-        SceneManager.LoadScene(1);
-        Cursor.lockState = CursorLockMode.Locked;
+        SceneManager.LoadScene("PanPlayground");
+        //no funciona esto de abajo mati no se ojala tu caches más
+        //Cursor.lockState = CursorLockMode.Locked; 
     }
     public void EndGame(){
         Application.Quit();
