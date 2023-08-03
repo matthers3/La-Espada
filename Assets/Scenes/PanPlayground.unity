@@ -363,6 +363,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_guitar_strings (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab73aaa2a5c7c243a65172dabc7c344, type: 3}
 --- !u!4 &25384945 stripped
@@ -458,6 +463,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -551,6 +561,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_pillar (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
@@ -817,6 +832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_skylampfbx (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9a5bf625d13e64f47a325ad4e8ba6960,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 9a5bf625d13e64f47a325ad4e8ba6960,
         type: 3}
@@ -1136,7 +1156,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &122347803
 MonoBehaviour:
@@ -1237,6 +1257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -1503,6 +1528,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_keyboard
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2f23c219594088646b45349287e4f28c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4207803407839602879, guid: 2f23c219594088646b45349287e4f28c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310729821592812630, guid: 2f23c219594088646b45349287e4f28c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f23c219594088646b45349287e4f28c, type: 3}
 --- !u!4 &189783641 stripped
@@ -1597,6 +1637,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_guitar_strings (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: cab73aaa2a5c7c243a65172dabc7c344,
         type: 3}
@@ -1698,6 +1743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_door
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd06b8e874397a44dab05e32f174dda5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: fd06b8e874397a44dab05e32f174dda5,
         type: 3}
       propertyPath: m_Convex
@@ -1797,6 +1847,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -1898,6 +1953,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_hosca
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e52ab62b536642a428107a566653b2f1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: e52ab62b536642a428107a566653b2f1,
         type: 3}
       propertyPath: m_Convex
@@ -1997,6 +2057,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -2098,6 +2163,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pillar (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
       propertyPath: m_Convex
@@ -2105,6 +2175,134 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73451a79a6db4514897947b7617251d8, type: 3}
+--- !u!1 &305876716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 305876718}
+  - component: {fileID: 305876717}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &305876717
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305876716}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 48fcc07f147d1c042a05dae30598ed14, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &305876718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305876716}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &310792822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2191,6 +2389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_coyac (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b30b97c5307904ca18557dbdbddb7b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 65b30b97c5307904ca18557dbdbddb7b,
         type: 3}
@@ -2459,6 +2662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -2565,6 +2773,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_closetfbx
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2272769c562037f42a9e601f7881b903,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 2272769c562037f42a9e601f7881b903,
         type: 3}
       propertyPath: m_Convex
@@ -2650,6 +2863,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_guitar_hole
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 30be21969eeac0f42ba4ad0f10f73051,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30be21969eeac0f42ba4ad0f10f73051, type: 3}
 --- !u!4 &341865331 stripped
@@ -2688,12 +2906,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5d5b58e447a9cdd40be6a533ec39adb8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.258936
+      value: -21.82
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d5b58e447a9cdd40be6a533ec39adb8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.910001
+      value: 13.42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d5b58e447a9cdd40be6a533ec39adb8,
         type: 3}
@@ -2744,6 +2962,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_banana
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d5b58e447a9cdd40be6a533ec39adb8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 5d5b58e447a9cdd40be6a533ec39adb8,
         type: 3}
@@ -2851,6 +3074,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_skylampfbx (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9a5bf625d13e64f47a325ad4e8ba6960,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 9a5bf625d13e64f47a325ad4e8ba6960,
         type: 3}
       propertyPath: m_Convex
@@ -2948,7 +3176,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 391e3d7b3b5af7e46b9ea1eb774b7e66,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 391e3d7b3b5af7e46b9ea1eb774b7e66, type: 3}
@@ -3555,6 +3783,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -3660,6 +3893,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -3870,6 +4108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pillar (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
       propertyPath: m_Convex
@@ -3969,6 +4212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -4185,6 +4433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_guitar_strings
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab73aaa2a5c7c243a65172dabc7c344, type: 3}
@@ -4425,6 +4678,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_chair
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4e8d360906c71a6419eda07637382e72,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 4e8d360906c71a6419eda07637382e72,
         type: 3}
       propertyPath: m_Convex
@@ -4525,6 +4783,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -4624,6 +4887,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_pawslador
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 15149fd96bdd95a4d96652da59e292b4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15149fd96bdd95a4d96652da59e292b4, type: 3}
@@ -4840,6 +5108,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_clock
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 439d836128e252f4092ca45810f41c02,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 439d836128e252f4092ca45810f41c02, type: 3}
@@ -5191,6 +5464,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -5284,6 +5562,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_velador (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a72df0342c85e244586fc2c09da6192d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: a72df0342c85e244586fc2c09da6192d,
         type: 3}
@@ -5698,10 +5981,25 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 622761754486350906, guid: b703f08b192c5644db95c023f2dcd1e5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b703f08b192c5644db95c023f2dcd1e5,
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_guitar
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b703f08b192c5644db95c023f2dcd1e5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3079859361522819623, guid: b703f08b192c5644db95c023f2dcd1e5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8440908976738623177, guid: b703f08b192c5644db95c023f2dcd1e5,
         type: 3}
@@ -5806,7 +6104,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 391e3d7b3b5af7e46b9ea1eb774b7e66,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 391e3d7b3b5af7e46b9ea1eb774b7e66,
         type: 3}
@@ -5927,6 +6225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -6095,6 +6398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_velador (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a72df0342c85e244586fc2c09da6192d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: a72df0342c85e244586fc2c09da6192d,
         type: 3}
       propertyPath: m_Convex
@@ -6195,6 +6503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pawslador (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 15149fd96bdd95a4d96652da59e292b4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 15149fd96bdd95a4d96652da59e292b4,
         type: 3}
       propertyPath: m_Convex
@@ -6294,6 +6607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_beantable
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17535a469aafe3340b94466d7fad68b4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 17535a469aafe3340b94466d7fad68b4,
         type: 3}
@@ -6875,6 +7193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_closetfbx (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2272769c562037f42a9e601f7881b903,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 2272769c562037f42a9e601f7881b903,
         type: 3}
       propertyPath: m_Convex
@@ -7150,6 +7473,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_guitar_strings (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: cab73aaa2a5c7c243a65172dabc7c344,
         type: 3}
       propertyPath: m_Convex
@@ -7376,6 +7704,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_skylampfbx
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9a5bf625d13e64f47a325ad4e8ba6960,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 9a5bf625d13e64f47a325ad4e8ba6960,
         type: 3}
       propertyPath: m_Convex
@@ -7568,6 +7901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_maceta (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8c4c48c784371c4d90c20e4bb5dd041,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: b8c4c48c784371c4d90c20e4bb5dd041,
         type: 3}
@@ -7782,6 +8120,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pillar (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
       propertyPath: m_Convex
@@ -7882,6 +8225,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -7981,6 +8329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_chair (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4e8d360906c71a6419eda07637382e72,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 4e8d360906c71a6419eda07637382e72,
         type: 3}
@@ -8157,6 +8510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_maceta
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8c4c48c784371c4d90c20e4bb5dd041,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: b8c4c48c784371c4d90c20e4bb5dd041,
         type: 3}
@@ -8470,6 +8828,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pillar (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
       propertyPath: m_Convex
@@ -8601,6 +8964,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_guitar_strings (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab73aaa2a5c7c243a65172dabc7c344, type: 3}
 --- !u!4 &1200586777 stripped
@@ -8699,7 +9067,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 391e3d7b3b5af7e46b9ea1eb774b7e66,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 391e3d7b3b5af7e46b9ea1eb774b7e66,
         type: 3}
@@ -8821,6 +9189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_guitar_strings (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: cab73aaa2a5c7c243a65172dabc7c344,
         type: 3}
       propertyPath: m_Convex
@@ -8936,7 +9309,7 @@ Transform:
   - {fileID: 1810930208}
   - {fileID: 653288846}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1244643985
 MonoBehaviour:
@@ -9202,7 +9575,7 @@ Transform:
   - {fileID: 1588150751}
   - {fileID: 1595954134}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1260623344
 PrefabInstance:
@@ -9290,6 +9663,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_guitar_strings (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: cab73aaa2a5c7c243a65172dabc7c344,
         type: 3}
@@ -9391,6 +9769,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -9490,6 +9873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_maceta (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8c4c48c784371c4d90c20e4bb5dd041,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: b8c4c48c784371c4d90c20e4bb5dd041,
         type: 3}
@@ -9629,6 +10017,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_closetfbx (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2272769c562037f42a9e601f7881b903,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 2272769c562037f42a9e601f7881b903,
         type: 3}
@@ -9806,6 +10199,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_banana (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d5b58e447a9cdd40be6a533ec39adb8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 5d5b58e447a9cdd40be6a533ec39adb8,
         type: 3}
       propertyPath: m_Convex
@@ -9931,6 +10329,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pillar (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
       propertyPath: m_Convex
@@ -10025,6 +10428,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -10118,6 +10526,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_birdskull
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c91ab2e3b060d60468d42eb14b6b69c7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: c91ab2e3b060d60468d42eb14b6b69c7,
         type: 3}
@@ -10219,6 +10632,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_guitar_strings (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab73aaa2a5c7c243a65172dabc7c344, type: 3}
 --- !u!4 &1340616578 stripped
@@ -10314,6 +10732,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_guitar_strings (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab73aaa2a5c7c243a65172dabc7c344, type: 3}
 --- !u!4 &1391733973 stripped
@@ -10408,6 +10831,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_pillar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
@@ -10508,6 +10936,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_velador (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a72df0342c85e244586fc2c09da6192d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a72df0342c85e244586fc2c09da6192d, type: 3}
@@ -10612,7 +11045,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!1001 &1458498607
 PrefabInstance:
@@ -10700,6 +11133,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_pillar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
@@ -10934,6 +11372,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pawslador (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 15149fd96bdd95a4d96652da59e292b4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 15149fd96bdd95a4d96652da59e292b4,
         type: 3}
       propertyPath: m_Convex
@@ -11033,6 +11476,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -11134,6 +11582,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -11233,6 +11686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_pillar (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
@@ -11515,6 +11973,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pillar
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
       propertyPath: m_Convex
@@ -11614,6 +12077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -11790,6 +12258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -12066,6 +12539,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -12172,6 +12650,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_velador (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a72df0342c85e244586fc2c09da6192d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a72df0342c85e244586fc2c09da6192d, type: 3}
 --- !u!4 &1650094040 stripped
@@ -12266,6 +12749,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -12496,6 +12984,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -12596,6 +13089,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pillar (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
       propertyPath: m_Convex
@@ -12695,6 +13193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_pawslador (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 15149fd96bdd95a4d96652da59e292b4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15149fd96bdd95a4d96652da59e292b4, type: 3}
@@ -13201,6 +13704,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -13418,6 +13926,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_pillar (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73451a79a6db4514897947b7617251d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 73451a79a6db4514897947b7617251d8,
         type: 3}
       propertyPath: m_Convex
@@ -13622,6 +14135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4e8d360906c71a6419eda07637382e72,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 4e8d360906c71a6419eda07637382e72,
         type: 3}
       propertyPath: m_Convex
@@ -13721,6 +14239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_velador
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a72df0342c85e244586fc2c09da6192d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: a72df0342c85e244586fc2c09da6192d,
         type: 3}
@@ -13825,7 +14348,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4e8d360906c71a6419eda07637382e72,
         type: 3}
       propertyPath: m_Layer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 4e8d360906c71a6419eda07637382e72,
         type: 3}
@@ -14096,6 +14619,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_muela (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
       propertyPath: m_Convex
@@ -14324,6 +14852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_coyac
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b30b97c5307904ca18557dbdbddb7b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 65b30b97c5307904ca18557dbdbddb7b,
         type: 3}
@@ -14569,6 +15102,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fgr_fur_guitar_strings (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab73aaa2a5c7c243a65172dabc7c344,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: cab73aaa2a5c7c243a65172dabc7c344,
         type: 3}
       propertyPath: m_Convex
@@ -14668,6 +15206,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_boot
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 79f56168ffc9e0745aaa6ee618d0bf45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 79f56168ffc9e0745aaa6ee618d0bf45,
         type: 3}
@@ -14787,6 +15330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_muela (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 626bbb54692719b41bb2c99bf535d7c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: 626bbb54692719b41bb2c99bf535d7c4,
         type: 3}
@@ -15235,6 +15783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fgr_fur_clock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 439d836128e252f4092ca45810f41c02,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 439d836128e252f4092ca45810f41c02, type: 3}
