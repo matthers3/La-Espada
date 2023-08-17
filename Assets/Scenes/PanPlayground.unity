@@ -9222,6 +9222,7 @@ GameObject:
   - component: {fileID: 1244643985}
   - component: {fileID: 1244643986}
   - component: {fileID: 1244643987}
+  - component: {fileID: 1244643988}
   m_Layer: 0
   m_Name: DialogueSystem
   m_TagString: Untagged
@@ -9241,7 +9242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f0777399ec04ef6957da2ae823eb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textLanguageCode: es-CL
+  textLanguageCode: en
 --- !u!114 &1244643982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9438,6 +9439,18 @@ MonoBehaviour:
   friendSound: {fileID: 8300000, guid: dab64a13624e82d488873c70477faac0, type: 3}
   ringSound: {fileID: 8300000, guid: e3441627e8825af4f9e42a0deea870bd, type: 3}
   pickUp: {fileID: 8300000, guid: 1fa593ec39db2c24daf24c4872a896c4, type: 3}
+--- !u!114 &1244643988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244643980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5163bccbabd44d84baa2dc10c22a859a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1257145552
 GameObject:
   m_ObjectHideFlags: 0

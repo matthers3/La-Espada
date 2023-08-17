@@ -1,7 +1,7 @@
 ﻿title: TasaBegin
 tags:
 ---
-Una taza.
+Una taza. #line:0ba4df6 
 <<begin_interaction YarnCommands Tasa>>
 ===
 
@@ -9,7 +9,7 @@ Una taza.
 title: MixtapeBegin
 tags:
 ---
-Un mixtape.
+Un mixtape. #line:0cda3e7 
 <<begin_interaction YarnCommands Mixtape>>
 ===
 
@@ -17,7 +17,7 @@ Un mixtape.
 title: PhoneBegin
 tags:
 ---
-Tu telefono.
+Tu telefono. #line:011b80f 
 <<begin_interaction YarnCommands Phone>>
 ===
 
@@ -25,22 +25,22 @@ Tu telefono.
 title: PoleronBegin
 tags:
 ---
-Un polerón.
+Un polerón. #line:0605928 
 <<begin_interaction YarnCommands ThePoleron>>
 ===
 
 title: Tasa
 tags:
 ---
-Manchada con un color que tu no usas.
-¿Cuándo fue la última vez que estuvo aquí?
-¿Cuándo va a volver a venir?
-Ni siquiera sé.
-Si la llamara, vendría?
-Si ella me llamara a mi…
--> Soy patética.
+Manchada con un color que tu no usas. #line:0d29028 
+¿Cuándo fue la última vez que estuvo aquí? #line:0aca42d 
+¿Cuándo va a volver a venir? #line:01abb9f 
+Ni siquiera sé. #line:052c36d 
+Si la llamara, vendría? #line:076fe6e 
+Si ella me llamara a mi… #line:0183034 
+-> Soy patética. #line:09905af 
     <<sum_positive YarnCommands>>
--> Odio lavar loza.
+-> Odio lavar loza. #line:09e9870 
     <<sum_negative YarnCommands>>
 <<end_interaction YarnCommands Tasa>>
 ===
@@ -48,15 +48,15 @@ Si ella me llamara a mi…
 title: Mixtape
 tags:
 ---
-Llena de “nuestras canciones”.
-Un regalo de nuestra primera cita…
-Ella llegó tarde.
-Entra por la puerta y espera que no diga nada.
-Un baile que ambas nos sabemos de memoria…
-Lo odio.
--> Son migajas.
+Llena de “nuestras canciones”. #line:0e8dea0 
+Un regalo de nuestra primera cita… #line:0093b48 
+Ella llegó tarde. #line:04a2ddc 
+Entra por la puerta y espera que no diga nada. #line:0e34ba1 
+Un baile que ambas nos sabemos de memoria… #line:049f73b 
+Lo odio. #line:09cf6a6 
+-> Son migajas. #line:0ab7d7f 
     <<sum_positive YarnCommands>>
--> Ella piensa en mí.
+-> Ella piensa en mí. #line:0281a80 
     <<sum_negative YarnCommands>>
 <<end_interaction YarnCommands Mixtape>>
 ===
@@ -64,10 +64,10 @@ Lo odio.
 title: Phone
 tags:
 ---
-¿Qué estás esperando?
-Deberíamos hablar?
+¿Qué estás esperando? #line:00a00fd 
+Deberíamos hablar? #line:03925ce 
 <<play_ring DialogueSystem>>
-Sobre qué… exactamente—
+Sobre qué… exactamente— #line:0430fed 
 <<set_friend_line_view DialogueSystem true>>
 <<wait  1>>
 <<jump PhoneFriend>>
@@ -78,17 +78,17 @@ tags:
 ---
 <<play_friend DialogueSystem>>
 <<wait 1.5>>
-Pio yo se que no querí venir pa' aca y weon.
+Pio yo se que no querí venir pa' aca y weon. #line:0bc5fc1 
 <<wait 1.5>>
-Que paja ser yo el que te diga esto pero weon. 
+Que paja ser yo el que te diga esto pero weon.  #line:0329ca9 
 <<wait 1>>
-Estoy viendo ACÁ, de frente... a la Prava comiéndose a otra weona. 
+Estoy viendo ACÁ, de frente... a la Prava comiéndose a otra weona.  #line:0b07a3c 
 <<wait 2.25>>
-Weon se estan comiendo MUY FUERTE weon... 
+Weon se estan comiendo MUY FUERTE weon...  #line:0fad1de 
 <<wait 1.4>>
-Yo te dije que eran malas. Weon yo te dije que esta mina era mala pa' ti weon.
+Yo te dije que eran malas. Weon yo te dije que esta mina era mala pa' ti weon. #line:066ab8b 
 <<wait 1.5>>
-YO TE DIJE… Espérate voy a dejar la caga y vuelvo...
+YO TE DIJE… Espérate voy a dejar la caga y vuelvo... #line:052d6e3 
 <<wait 2>>
 <<set_friend_line_view DialogueSystem false>>
 <<jump PhoneEnd>>
@@ -97,10 +97,10 @@ YO TE DIJE… Espérate voy a dejar la caga y vuelvo...
 title: PhoneEnd
 tags:
 ---
-...
--> Nosotras no somos nada.
+... #line:06f8b31 
+-> Nosotras no somos nada. #line:0310484 
     <<sum_negative YarnCommands>>
--> La odio.
+-> La odio. #line:02b92c6 
     <<sum_positive YarnCommands>>
 <<end_interaction YarnCommands Phone>>
 ===
@@ -108,13 +108,13 @@ tags:
 title: Poleron
 tags:
 ---
-Con agujeros para alas que no tienes.
-Cosas y cosas de ella…
-Aparecen por todos lados.
-Como cucarachas.
--> Ella… tampoco tiene alas.
+Con agujeros para alas que no tienes. #line:03427ea 
+Cosas y cosas de ella… #line:0ed273c 
+Aparecen por todos lados. #line:00dfd91 
+Como cucarachas. #line:0f49077 
+-> Ella… tampoco tiene alas. #line:02e1156 
     <<sum_positive YarnCommands>>
--> Esto ni siquiera me queda.
+-> Esto ni siquiera me queda. #line:03b5873 
     <<sum_negative YarnCommands>>
 <<end_interaction YarnCommands ThePoleron>>
 ===
@@ -122,20 +122,20 @@ Como cucarachas.
 title: Sword
 tags:
 ---
-Su espada.
-Digna de una guerrera. 
-…
-Te atraviesa cuando no tiene nada mejor que hacer.
-Estoy cansada de pelear contra ella.
-Ella me engaña.
-Ella me traiciona.
-Y yo…
-Me quedo sola.
-No tengo fuerzas… 
-Ni pensamientos…
-Ni opciones.
--> Ella no me ama.
--> Ella nunca me amó.
+Su espada. #line:03b896d 
+Digna de una guerrera.  #line:04de658 
+… #line:05cc74d 
+Te atraviesa cuando no tiene nada mejor que hacer. #line:07fcc27 
+Estoy cansada de pelear contra ella. #line:0519a62 
+Ella me engaña. #line:032a2d6 
+Ella me traiciona. #line:011e75d 
+Y yo… #line:02c8484 
+Me quedo sola. #line:047b984 
+No tengo fuerzas…  #line:08c6310 
+Ni pensamientos… #line:09304c8 
+Ni opciones. #line:0757ea9 
+-> Ella no me ama. #line:02918dd 
+-> Ella nunca me amó. #line:04b34fc 
 <<sum_sword YarnCommands>>
 <<end_interaction YarnCommands Espada>>
 ===
@@ -143,45 +143,45 @@ Ni opciones.
 title: Bed
 tags:
 ---
-Mi cama…
-El olor esta pegado…
-Aún me excita.
-Me revuelve el estomago.
+Mi cama… #line:0273666 
+El olor esta pegado… #line:062cb1b 
+Aún me excita. #line:083c221 
+Me revuelve el estomago. #line:0812827 
 <<liberate_player YarnCommands>>
 ===
 
 title: Polaroid
 tags:
 ---
-Al lado tuyo…
-Esa soy yo?
-Siempre me dices que son “accidentes”.
-¿Así es como me dices a mi?
-¿Soy otro de tus accidentes?
-Tus pequeños errores que todos cometemos.
-Entendibles, pequeños, poco importantes.
+Al lado tuyo… #line:08a93fa 
+Esa soy yo? #line:055584e 
+Siempre me dices que son “accidentes”. #line:02dbc7e 
+¿Así es como me dices a mi? #line:02215ec 
+¿Soy otro de tus accidentes? #line:0b1d24f 
+Tus pequeños errores que todos cometemos. #line:0b41013 
+Entendibles, pequeños, poco importantes. #line:0ffec8a 
 <<liberate_player YarnCommands>>
 ===
 
 title: Nude
 tags:
 ---
-Oh! 
-Bacán, y ahora me reconozco…
+Oh!  #line:007733d 
+Bacán, y ahora me reconozco… #line:0e72bb0 
 <<liberate_player YarnCommands>>
 ===
 
 title: LoveLetter
 tags:
 ---
-Esta a medias.
-Podría terminarla.
-Decirle que la amo, que la adoro.
-Que me pone enferma de la cabeza y sin ella no me queda nada.
-¿Que es extraordinaria con la lengua?
-…
-tsk.
-Mejor no.
+Esta a medias. #line:06d72e8 
+Podría terminarla. #line:06a7086 
+Decirle que la amo, que la adoro. #line:0fbb764 
+Que me pone enferma de la cabeza y sin ella no me queda nada. #line:0fb3db7 
+¿Que es extraordinaria con la lengua? #line:0559d64 
+… #line:0b53a4a 
+tsk. #line:00e9ec8 
+Mejor no. #line:0616d38 
 <<liberate_player YarnCommands>>
 ===
 
@@ -189,7 +189,7 @@ title: MirrorReminder
 tags:
 ---
 <<block_player YarnCommands>>
-Estoy lista para verme a mi misma.
+Estoy lista para verme a mi misma. #line:05d9727 
 <<liberate_player YarnCommands>>
 ===
 
@@ -202,47 +202,47 @@ tags:
 title: MirrorStart
 tags:
 ---
-Ni siquiera me reconozco a mi misma…
+Ni siquiera me reconozco a mi misma… #line:0cb5332 
 <<liberate_player YarnCommands>>
 ===
 
 title: MirrorMid
 tags:
 ---
-Esa soy yo?
-No es suficiente.
-Aún me faltan cosas.
+Esa soy yo? #line:08a34d6 
+No es suficiente. #line:0e78b6c 
+Aún me faltan cosas. #line:0106d17 
 <<liberate_player YarnCommands>>
 ===
 
 title: MirrorFinaleGood
 tags:
 ---
-Tuve suficiente de este circo inútil.
-Un tira y afloja sin sentido.
-¿Para qué?
-…
-Termine.
-Terminamos?
-Según quienes...
-Un trato entro yo y nadie más.
-Que termina ahora.
+Tuve suficiente de este circo inútil. #line:0aa7863 
+Un tira y afloja sin sentido. #line:0061824 
+¿Para qué? #line:068c0b7 
+… #line:06e6ece 
+Termine. #line:0d3a6c2 
+Terminamos? #line:0dd5839 
+Según quienes... #line:0467253 
+Un trato entro yo y nadie más. #line:0e5cf87 
+Que termina ahora. #line:0045c60 
 <<end_game YarnCommands>>
 ===
 
 title: MirrorFinaleNegation
 tags:
 ---
-Mírate a la cara.
-Vas a esconderte?
-Pudrirte en auto-desprecio y lastima…
-Como un animal herido.
-La vergüenza en tu cara…
-Me pone mas enferma que cualquier rastro de sexo podría.
-Mi ira…
-Es un precio que se paga en celos y se ahoga entre carretas eternas.
-Control.
-Control y venganza.
-Tienen un sabor delicioso.
+Mírate a la cara. #line:0d15cce 
+Vas a esconderte? #line:069651a 
+Pudrirte en auto-desprecio y lastima… #line:08cd569 
+Como un animal herido. #line:069fc7d 
+La vergüenza en tu cara… #line:0d8b908 
+Me pone mas enferma que cualquier rastro de sexo podría. #line:00d9bf4 
+Mi ira… #line:0197381 
+Es un precio que se paga en celos y se ahoga entre carretas eternas. #line:09c1408 
+Control. #line:0a8b73a 
+Control y venganza. #line:07fdf9d 
+Tienen un sabor delicioso. #line:04a2725 
 <<end_game YarnCommands>>
 ===
