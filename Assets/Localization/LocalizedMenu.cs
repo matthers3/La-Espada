@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class LocalizedMenu : MonoBehaviour
 {
     public static LocalizedMenu instance = null;

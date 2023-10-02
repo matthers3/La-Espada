@@ -1,18 +1,13 @@
-/*using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-public class SetLanguageRuntime : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        DiaRun = GetComponent<DialogueRunner>();
+using Yarn.Unity;
+
+class SetLanguageRuntime: MonoBehaviour {
+
+    void Start() {
+        FindObjectOfType<TextLineProvider>().textLanguageCode = 
+            FindObjectOfType<LocalizedMenu>().CURRENT_LOCALE;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        DiaRun.TextLineProvider = CURRENT_LOCALE;
-    }
 }
