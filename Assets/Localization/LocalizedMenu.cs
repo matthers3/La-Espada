@@ -25,13 +25,15 @@ public class LocalizedMenu : MonoBehaviour
     public Dictionary<string, string> spanish = new Dictionary<string, string>() {
         {"start", "Jugar"},
         {"exit", "Salir"},
-        {"lang", "Idioma"}
+        {"lang", "Idioma"},
+        {"end", "Fin"}
     };
     
     public Dictionary<string, string> english = new Dictionary<string, string>() {
         {"start", "Start"},
         {"exit", "Exit"},
-        {"lang", "Language"}
+        {"lang", "Language"},
+        {"end", "The End"}
     };
 
     public string getTranslation(string key) {

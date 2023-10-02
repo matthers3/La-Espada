@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class FinalFade : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class FinalFade : MonoBehaviour
 
     void Start() {
         StartCoroutine(startGame());
+        // StartCoroutine(endTitleAndCredits());
     }
 
     private IEnumerator startGame() {
@@ -28,6 +30,8 @@ public class FinalFade : MonoBehaviour
         yield return new WaitForSeconds(1.25f);
         GetComponent<CanvasGroup>().DOFade(1f, 1f);
         yield return new WaitForSeconds(2f);
-        EndMessage.SetActive(true);
+        EndMessage.GetComponent<CanvasGroup>().alpha = 1f;
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("PanPlayground_Title");
     }
 }
