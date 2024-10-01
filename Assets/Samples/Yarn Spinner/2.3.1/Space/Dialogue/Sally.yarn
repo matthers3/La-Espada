@@ -1,0 +1,23 @@
+title: Sally
+tags: 
+colorID: 0
+position: 524,111
+---
+
+Sally: Hola!
+You: Hola!
+Sally: Como estas?
+<<reset_timer YarnCommands>>
+<<awaiting_dialogue YarnCommands>>
+Sally: Hola!
+You: Hola!
+Sally: Como estas?
+
+<<if $conversacion1 == true>>
+    Sally: Como estas? jadskfjasdf
+<<else>>
+    Sally: aJKDLAJSKDLSJjdaslkdjakljdl
+<<endif>>
+
+===
+

@@ -1,0 +1,248 @@
+﻿etitle: TasaBegin
+tags:
+---
+A cup. #line:0490706 
+<<begin_interaction YarnCommands Tasa>>
+===
+
+
+title: MixtapeBegin
+tags:
+---
+A mixtape. #line:055deef 
+<<begin_interaction YarnCommands Mixtape>>
+===
+
+
+title: PhoneBegin
+tags:
+---
+Your phone. #line:02a1d7b 
+<<begin_interaction YarnCommands Phone>>
+===
+
+
+title: PoleronBegin
+tags:
+---
+A hoodie. #line:0dbe34a 
+<<begin_interaction YarnCommands ThePoleron>>
+===
+
+title: Tasa
+tags:
+---
+Stained with a lipstick shade you don’t use. #line:0df6d37 
+When was the last time she was here? #line:06ccc5b 
+When will she be here again? #line:0dda6f0 
+I don’t even know anymore. #line:075ba2a 
+If I called her, would she come? #line:0ad84c3 
+If she called me… #line:023f128 
+-> I’m pathetic. #line:00a165c 
+    <<sum_positive YarnCommands>>
+-> I hate doing dishes. #line:0a98637 
+    <<sum_negative YarnCommands>>
+<<end_interaction YarnCommands Tasa>>
+===
+
+title: Mixtape
+tags:
+---
+Filled with “our songs”. #line:0267c8a 
+A gift from our first date… #line:0757382 
+She was late that time. #line:0f79561 
+Now she bursts through the door expecting me to not say anything. #line:02d7311 
+A song and dace we both know by memory now… #line:0278080 
+I hate it. #line:03b5438 
+-> These are crumbs. #line:0ac6c04 
+    <<sum_positive YarnCommands>>
+-> She thinks about me. #line:0770298 
+    <<sum_negative YarnCommands>>
+<<end_interaction YarnCommands Mixtape>>
+===
+
+title: Phone
+tags:
+---
+What are you waiting for? #line:0e99090 
+Should we talk? #line:0e53e0b 
+<<play_ring DialogueSystem>>
+About what… exactly— #line:084581e 
+<<set_friend_line_view DialogueSystem true>>
+<<wait  1>>
+<<jump PhoneFriend>>
+===
+
+title: PhoneFriend
+tags:
+---
+<<play_friend DialogueSystem>>
+<<wait 1.5>>
+Pio I know you didn’t wanted to come here but dude. #line:01dbb3f 
+<<wait 1.5>>
+I hate to be the one telling you this but dude. #line:0b8ce43 
+<<wait 1>>
+I’m looking at, like, RIGHT in front of me. I’m looking at Prava making out with another girl. #line:0f9c461 
+<<wait 2.25>>
+Dude they’re GOING AT IT. #line:0c1bc1f 
+<<wait 1.4>>
+I told you they were evil. Girlie I told you this woman was bad for you. #line:0379eeb 
+<<wait 1.5>>
+I TOLD YOU… Wait, I’m going to make a fucking mess and I’ll be right back. #line:0d61cbc 
+<<wait 2>>
+<<set_friend_line_view DialogueSystem false>>
+<<jump PhoneEnd>>
+===
+
+title: PhoneEnd
+tags:
+---
+... #line:0d0f431 
+-> We’re nothing. #line:0223288 
+    <<sum_negative YarnCommands>>
+-> I hate her. #line:07c3364 
+    <<sum_positive YarnCommands>>
+<<end_interaction YarnCommands Phone>>
+===
+
+title: Poleron
+tags:
+---
+With holes for wings you don’t have. #line:0423969 
+So many of her things… #line:028c2ec 
+Show up everywhere. #line:0946120 
+Like cockroaches. #line:067252a 
+-> She… doesn’t have wings either.  #line:0e994e1 
+    <<sum_positive YarnCommands>>
+-> This doesn’t even fit me. #line:07bdf52 
+    <<sum_negative YarnCommands>>
+<<end_interaction YarnCommands ThePoleron>>
+===
+
+title: Sword
+tags:
+---
+Her sword,  #line:058b8ef 
+Worthy of a warrior.  #line:0933bde 
+… #line:078bbeb 
+It goes through you when she has nothing better to do. #line:02a8309 
+I’m done fighting against her. #line:06a53b0 
+She deceives me. #line:0bc0c96 
+She betrays me. #line:05b86df 
+And I… #line:07904dd 
+I’m left alone. #line:05e12c6 
+I’m out of strength… #line:0b3a289 
+And thoughts… #line:03d1465 
+And options. #line:05e99cf 
+-> She doesn’t love me. #line:0fe649c 
+-> She never loved me. #line:05999b8 
+<<sum_sword YarnCommands>>
+<<end_interaction YarnCommands Espada>>
+===
+
+title: Bed
+tags:
+---
+My bed… #line:031605a 
+The smell is stuck in it… #line:0974c5c 
+It turns me on still. #line:05da5f7 
+It makes me sick #line:063c8fb 
+<<liberate_player YarnCommands>>
+===
+
+title: Polaroid
+tags:
+---
+That one next to you… #line:0d186d1 
+Is that me? #line:00c623c 
+You call them your “accidents” #line:0231507 
+Is that how you call me? #line:0e5a8d6 
+Am I one of them? #line:0ab103c 
+Your little mistakes that we all make. #line:0a60805 
+Understandable, small, unimportant. #line:09f9d6d 
+<<liberate_player YarnCommands>>
+===
+
+title: Nude
+tags:
+---
+Oh. #line:0dc9092 
+Great, now I recognize myself… #line:001be9f 
+<<liberate_player YarnCommands>>
+===
+
+title: LoveLetter
+tags:
+---
+It’s halfway done. #line:08de2f7 
+I could finish it. #line:0674cce 
+Tell her that I love her, that I adore her.  #line:0fdb99e 
+That she makes my head dizzy, and without her I have nothing. #line:0e11261 
+That she’s extraordinary with her tongue? #line:0907037 
+… #line:043de30 
+tsk. #line:0aba12e 
+Better not. #line:0e29b49 
+<<liberate_player YarnCommands>>
+===
+
+title: MirrorReminder
+tags:
+---
+<<block_player YarnCommands>>
+I’m ready to see myself. #line:0193026 
+<<liberate_player YarnCommands>>
+===
+
+title: MirrorPrompt
+tags:
+---
+<<trigger_final YarnCommands>>
+===
+
+title: MirrorStart
+tags:
+---
+I don’t even recognize myself anymore… #line:0fe46ac 
+<<liberate_player YarnCommands>>
+===
+
+title: MirrorMid
+tags:
+---
+Is that me? #line:0bf0d86 
+Not enough. #line:07aea5a 
+I’m missing something still. #line:0c84b88 
+<<liberate_player YarnCommands>>
+===
+
+title: MirrorFinaleGood
+tags:
+---
+I had enough of this useless circus. #line:0c2345f 
+A senseless push and pull. #line:03fc965 
+For what. #line:09bb19b 
+… #line:00e1995 
+I’m done #line:0fa8a85 
+Are we done? #line:07782ed 
+According to who… #line:0d28f94 
+A deal between me and myself #line:0c898d0 
+That ends now. #line:04ad30a 
+<<end_game YarnCommands>>
+===
+
+title: MirrorFinaleNegation
+tags:
+---
+Look at your face. #line:0aaed0d 
+Are you going to hide? #line:0cb1cf5 
+Rot away in self-deprecation and sorrow… #line:0309825 
+Like a wounded animal. #line:0959e59 
+The shame in your face… #line:0dd32a4 
+makes me sicker that any lingering traces of old fucks ever could. #line:058ca4b 
+My rage… #line:0731018 
+Is a price to be paid in jealousy and eternal highways. #line:0e82ba2 
+Control. #line:0d2b3e5 
+Control and revenge #line:08ae59c 
+Taste so delicious. #line:08dc31e 
+<<end_game YarnCommands>>
+===

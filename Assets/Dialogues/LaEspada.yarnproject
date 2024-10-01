@@ -1,0 +1,18 @@
+{
+  "projectFileVersion": 2,
+  "sourceFiles": [
+    "*.yarn"
+  ],
+  "excludeFiles": [],
+  "localisation": {
+    "es": {
+      "assets": "."
+    },
+    "en": {
+      "assets": ".",
+      "strings": "LaEnpada.csv"
+    }
+  },
+  "baseLanguage": "es",
+  "compilerOptions": {}
+}
