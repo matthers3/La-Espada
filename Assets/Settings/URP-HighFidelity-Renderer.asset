@@ -52,13 +52,13 @@ MonoBehaviour:
     steepAngleThreshold: 0.2
     steepAngleMultiplier: 25
   viewSpaceNormalsTextureSettings:
-    colorFormat: 0
-    depthBufferBits: 16
+    colorFormat: 7
+    depthBufferBits: 32
     filterMode: 0
-    backgroundColor: {r: 0, g: 0, b: 0, a: 1}
-    perObjectData: 0
-    enableDynamicBatching: 0
-    enableInstancing: 0
+    backgroundColor: {r: 1, g: 1, b: 1, a: 0}
+    perObjectData: -1
+    enableDynamicBatching: 1
+    enableInstancing: 1
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0

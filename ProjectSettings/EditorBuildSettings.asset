@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/OtherScenes/PanPlayground_Title.unity
     guid: ad74d7b367d694548b98c1f78118a627
   - enabled: 1
