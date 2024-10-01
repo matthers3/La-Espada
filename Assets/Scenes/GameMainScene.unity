@@ -9512,7 +9512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bottomOffset: 0.5
   frontOffset: 0
-  collisionRadius: 0.5
+  collisionRadius: 1
   GroundLayer:
     serializedVersion: 2
     m_Bits: 264
@@ -9535,13 +9535,13 @@ MonoBehaviour:
   - {fileID: 988292657}
   - {fileID: 1616877280}
   - {fileID: 1588150751}
-  DownwardPush: 30
+  DownwardPush: 1
   GravityAmt: 0
   GravityBuildSpeed: 0
   GroundLayers:
     serializedVersion: 2
     m_Bits: 8
-  GravityRotationSpeed: 120
+  GravityRotationSpeed: 3600
   Speed: 4
   Acceleration: 4
   turnSpeed: 4
