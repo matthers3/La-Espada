@@ -1,6 +1,6 @@
 # La Espada
 
-A small game made by Fishbowl Team during a local Game Jam.
+A small game made by Fishbowl Team during a local 48h Game Jam.
 
 ## Team Members
 
