@@ -10,6 +10,7 @@ Avoid mouse clicks to prevent dialogue bugs, use the space key for interactions.
 - Abril Araneda
 - Francisco "Pan" Pezoa
 - Matías Gabler
+- Daniel Reyes
 
 ## References
 
